@@ -1,0 +1,28 @@
+{
+  "name": "clms",
+  "version": "1.0.0",
+  "description": "Training Course",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emman-m/clms.git"
+  },
+  "keywords": [
+    "clms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emman-m/clms/issues"
+  },
+  "homepage": "https://github.com/emman-m/clms#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
