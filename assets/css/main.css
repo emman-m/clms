@@ -1,0 +1,87 @@
+:root {
+  --background: #ebe8d0;
+  --red-1: #f94f06;
+  --orange-1: #fa850f;
+  --orange-2: #feaf1b;
+  --yellow-1: #ffdd24;
+  --yellow-2: #ffe35d;
+  --gray-1: #737373;
+  --gray-2: #d9d9d9;
+  --white: #ffffff;
+  --black: #000000;
+  --bs-avatar-width: 32px;
+}
+.bg-aesthetic {
+  background-color: var(--background);
+}
+
+.side-nav-bg {
+  background-color: var(--orange-1);
+}
+
+/* AVATAR */
+.avatar-xs {
+    --bs-avatar-width: 16px;
+}
+.avatar-sm {
+    --bs-avatar-width: 24px;
+}
+.avatar-lg {
+    --bs-avatar-width: 40px;
+}
+.avatar-xl {
+    --bs-avatar-width: 96px;
+}
+.avatar-xxl {
+    --bs-avatar-width: 128px;
+}
+.avatar {
+    
+    --bs-avatar-bg: var(--ds-background-neutral-bold);
+    position: relative;
+    width: var(--bs-avatar-width);
+    height: var(--bs-avatar-width);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ds-text-inverse);
+    line-height: 1;
+    font-size: 14px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-color: var(--bs-avatar-bg);
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.nav-menu {
+  background-color: var(--white)!important;
+}
+
+.meets {
+  background-color: var(--orange-2)!important;
+  color: var(--black)!important;
+  font-weight: 500;
+}
+
+.user-box {
+  background-color: var(--white);
+  box-shadow: inset 0px 5px 5px 0px #c9c9c9;
+}
+
+a.nav-link {
+  text-decoration: none;
+}
+
+.nav-li {
+  background-color: var(--white);
+  transition: 0.3s;
+}
+
+.nav-li:hover, .nav-li.act {
+  background-color: var(--yellow-1);
+  font-weight: 600;
+}
